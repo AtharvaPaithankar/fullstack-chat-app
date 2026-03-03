@@ -1,3 +1,5 @@
+import mongoose from "mongoose";
+
 export const connectDB = async () => {
   try {
     console.log("ENV:", process.env.MONGODB_URI);
